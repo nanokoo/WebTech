@@ -5,23 +5,67 @@ body{
   background-color:#f4f4f4;
 }
 
+.branding{
+  width: 30px;
+  height: 20px;
+}
+img.logo{
+  width: 200px;
+  height: 80px;
+  position: static;
+  top: 0;
+  left: 0;
+}
 /* Global */
 .container{
   width:80%;
-  margin:auto;
+  height:30%;
+  margin: auto;
+  top: 20px;
   overflow:hidden;
+
+}
+#myvideo{
+  writing-mode: horizontal-tb;
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  direction: ltr;
+  padding-top:30px;
+  min-height:70px;
 }
 
 
 .button_1{
-  height:38px;
-  background:#e8491d;
-  border:0;
-  padding-left: 20px;
-  padding-right:20px;
-  color:#ffffff;
-}
+  position: relative;
+  display: inline-block;
+  border-radius: 16px;
+  background-color: #E85138;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  width: 120px;
+  font-size: 15px;
+  font-family: Arial;
+  font-weight: bold;
+  margin: 15px 0 0 0;
 
+  
+}
+.button_1:after{
+  display: block;
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  width: 5px;
+  height: 6px;
+  margin: -4px 0 0 0;
+  border-top: solid 2px #fff;
+  border-right: solid 2px #fff;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
 .dark{
   padding:15px;
   background:#35424a;
@@ -36,12 +80,8 @@ header{
   color:#E85138;
   padding-top:30px;
   min-height:70px;
-  border-bottom:#E85138 5px solid;
+  border-bottom:#E85138 10px solid;
 }
-
-
-
-
 
 header #branding{
   float:left;
@@ -51,7 +91,7 @@ header #branding{
 
 header nav{
   float:right;
-  marsgin-top:10px;
+  margin-top:10px;
 }
 
 header .highlight, header .current a{
