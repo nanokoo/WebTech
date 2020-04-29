@@ -11,6 +11,7 @@
     <meta name="keywords" content="evets, tallinn, tech, startup">
     <title>N&L meetup Events | Welcome</title>
     <link rel="stylesheet" href="style.css">
+    <script src="cursoranimation.js"></script>
   </head>
   <body>
 

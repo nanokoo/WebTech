@@ -2,6 +2,8 @@
 
 //insert.php
 
+
+// Create connection
 $connect = new PDO('mysql:host=localhost;dbname=myevents', 'root', '');
 
 if(isset($_POST["title"]))
@@ -20,5 +22,7 @@ if(isset($_POST["title"]))
   )
  );
 }
-
+if (!$connect) {
+    die("Connection failed: " . mysqli_connect_error());
+}
 ?>
