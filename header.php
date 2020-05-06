@@ -22,6 +22,11 @@
         <a class="header-logo" href="index.php">
           <img src="img/NL.png" alt="N&L">
         </a>
+        <ul>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="aboutus.php">About us</a></li>
+          <li><a href="contact.php">Contact</a></li>
+        </ul>
       </nav>
       <div class="header-login">
         

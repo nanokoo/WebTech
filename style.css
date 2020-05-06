@@ -159,7 +159,16 @@ h1 {
   color: #1FC5FF;
   opacity: 1;
 }
-
+p {
+  color: #1FC5FF;
+}
+address{
+  color: #1FC5FF;
+  text-align: center;
+}
+address a {
+  color: #F3F3F3
+}
 /* signup.php */
 
 .form-signup {
